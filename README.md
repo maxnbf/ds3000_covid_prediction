@@ -19,4 +19,11 @@ going to examine several different timelines, or N-day values.
 
 ### Data Sources
 
-TODO: add data sources list with links to the data and features sourced
+|Data Source|Link(s)|Date|Features|
+|-|-|-|-|
+|NY Times|[Link](https://github.com/nytimes/covid-19-data/blob/master/us-counties.csv)|May 22, 2020|`date_0days`, `cases_0days`, `deaths_0days`, `date_90days`, `cases_90days`, `deaths_90days`, `fips`
+|Kaiser Health|[Link](https://khn.org/news/as-coronavirus-spreads-widely-millions-of-older-americans-live-in-counties-with-no-icu-beds/#lookup)|March 30, 2020|`icu_beds`, `kaiser_total_population`, `kaiser_60plus_population`
+|US Census Commuting Data|[Link](https://www.census.gov/data/tables/2015/demo/metro-micro/commuting-flows-2015.html)|2015|`commuting_within`, `commuting_out`, `commuting_in`
+|US Census Population Density|[Link](https://api.census.gov/data/2019/pep/population?get=DENSITY,POP&for=county:*)|2019|`density`, `pop_2019`
+|Political Majority|[Link](https://github.com/tonmcg/US_County_Level_Election_Results_08-16/blob/master/2016_US_County_Level_Presidential_Results.csv)|2016|`percent_democrat`, `percent_gop`
+|Poverty Data|[Link](https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/)|Feb. 5, 2020|`percent_in_poverty`
