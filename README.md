@@ -28,6 +28,28 @@ going to examine several different timelines, or N-day values.
 |Political Majority|[Link](https://github.com/tonmcg/US_County_Level_Election_Results_08-16/blob/master/2016_US_County_Level_Presidential_Results.csv)|2016|`percent_democrat`, `percent_gop`
 |Poverty Data|[Link](https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/)|Feb. 5, 2020|`percent_in_poverty`
 |Age Data|[Link](https://data.census.gov/cedsci/table?q=Older%20Population&hidePreview=true&t=Older%20Population&tid=ACSDP1Y2018.DP05&vintage=2018&g=0100000US.050000)|2018|`pop_under18`, `pop_over65`, `pop_2018`, `median_age`
+|Education Data|[Link](https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/)|2018|`percent_with_bachelors`
+|Income Data|[Link](https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/)|2018|`median_income`
+
+### Selected Features
+
+**INCOMPLETE: This is just a mockup of this section.**
+These are the features we selected to train our models on, out of the selection of features we gathered data for.
+
+|Name|Type|Description
+|-|-|-|
+|`cases_70days`|Target|This is the count of cases in each county 70 days after the first recorded case.
+|`icu_beds`|Feature|Count of ICU beds per county.
+|`commuting_in`|Feature|Population commuting into this county every day.
+|`density`|Feature|A measure of poulation density in this county.
+|`percent_democrat`|Feature|Percentage of 2016 voters voting Democratic.
+|`percent_in_poverty`|Feature|Percentage of county population (all ages) in poverty.
+|`pop_over65`|Feature|Population in county aged 65+.
+|`median_age`|Feature|Median age for the county.
+|`percent_with_bachelors`|Feature|Percent of people in county attaining a bachelors degree or higher.
+|`median_income`|Feature|A measure of the median income in this county.
+|`pop_2019`|Feature|County population as of 2019.
+
 
 ### Important Notes
 
