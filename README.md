@@ -33,17 +33,20 @@ going to examine several different timelines, or N-day values.
 
 ### Selected Features
 
-**INCOMPLETE: This is just a mockup of this section.**
 These are the features we selected to train our models on, out of the selection of features we gathered data for.
 
 |Name|Type|Description
 |-|-|-|
+|`cases_60days`|Target|This is the count of cases in each county 60 days after the first recorded case.
 |`cases_70days`|Target|This is the count of cases in each county 70 days after the first recorded case.
 |`icu_beds`|Feature|Count of ICU beds per county.
 |`commuting_in`|Feature|Population commuting into this county every day.
+|`commuting_out`|Feature|Population commuting out of this county every day.
+|`commuting_within`|Feature|Population commuting within this county every day.
 |`density`|Feature|A measure of poulation density in this county.
 |`percent_democrat`|Feature|Percentage of 2016 voters voting Democratic.
 |`percent_in_poverty`|Feature|Percentage of county population (all ages) in poverty.
+|`pop_under18`|Feature|Population in county aged under 18.
 |`pop_over65`|Feature|Population in county aged 65+.
 |`median_age`|Feature|Median age for the county.
 |`percent_with_bachelors`|Feature|Percent of people in county attaining a bachelors degree or higher.
