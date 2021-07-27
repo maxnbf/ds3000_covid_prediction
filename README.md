@@ -9,7 +9,7 @@ This is our repository for all our final project stuff.
 ### Useful Links
 
 - Data Acquisition: [/data/](/data/)
-- Final Report: [/processing/DS3000_FP4_Group25.ipynb](/processing/DS3000_FP4_Group25.ipynb)
+- Final Report: [https://github.com/lucademian/ds3000_covid_prediction/blob/master/processing/DS3000_FP4_Group25.ipynb](/processing/DS3000_FP4_Group25.ipynb)
 
 ### Description
 
